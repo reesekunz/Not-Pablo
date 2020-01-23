@@ -1,0 +1,25 @@
+.section-2-container {
+  margin-top: 50px;
+
+  .section-header-container {
+    display: flex;
+    .section-header {
+      display: flex;
+      border-bottom: 1px solid black;
+      width: 100%;
+    }
+  }
+  .section-2-content {
+    display: flex;
+    .section-2-main-img {
+      border: 1px solid black;
+    }
+    .second-img-container {
+      display: flex;
+      flex-direction: column;
+      .section-2-second-img {
+        border: 1px solid red;
+      }
+    }
+  }
+}
