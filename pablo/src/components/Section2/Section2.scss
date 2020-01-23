@@ -11,14 +11,23 @@
   }
   .section-2-content {
     display: flex;
+    border: 1px solid red;
+    margin-top: 20px;
     .section-2-main-img {
       border: 1px solid black;
+      width: 40%;
+      height: 250px;
     }
     .second-img-container {
       display: flex;
       flex-direction: column;
+      height: 250px;
+      border: 1px solid black;
+      width: 60%;
       .section-2-second-img {
         border: 1px solid red;
+        height: 33%;
+        width: 100%;
       }
     }
   }

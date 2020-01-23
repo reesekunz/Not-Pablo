@@ -1,5 +1,6 @@
 .section-3-container {
   margin-top: 50px;
+  margin-bottom: 100px;
 
   .section-header-container {
     display: flex;
@@ -11,14 +12,23 @@
   }
   .section-3-content {
     display: flex;
+    border: 1px solid red;
+    margin-top: 20px;
     .section-3-main-img {
       border: 1px solid black;
+      width: 40%;
+      height: 250px;
     }
     .second-img-container {
       display: flex;
       flex-direction: column;
+      height: 250px;
+      border: 1px solid black;
+      width: 60%;
       .section-3-second-img {
         border: 1px solid red;
+        height: 33%;
+        width: 100%;
       }
     }
   }
