@@ -1,20 +1,40 @@
 .nav-bar-container {
   border: 1px solid black;
   background-color: #113d55;
-
-  .not-pablo-logo {
-    height: 180px;
-    width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  .pablo-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34%;
+    .pablo-img {
+      border-radius: 50%;
+      height: 150px;
+      width: auto;
+      border: 1.5px solid white;
+    }
+  }
+  .logo-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    .not-pablo-logo {
+      height: 180px;
+      width: 400px;
+    }
   }
   .social-media-icons {
-    margin-top: 0;
+    width: 33%;
     display: flex;
-    justify-content: flex-end;
-    margin-right: 100px;
-    margin-left: 100px;
-    // margin-bottom: 10px;
+    align-items: flex-end;
+    justify-content: center;
+
+    margin-bottom: 0px;
     .icon {
-      margin-left: 2.5%;
+      margin-left: 5%;
     }
   }
 }

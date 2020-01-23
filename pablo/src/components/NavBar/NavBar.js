@@ -1,5 +1,6 @@
 import React from "react";
 import NotPabloLogo from "../../images/NotPabloLogo.png";
+import Pablo from "../../images/Pablo.jpeg";
 import "./NavBar.scss";
 import {
   IoLogoFacebook,
@@ -9,8 +10,17 @@ import {
 function NavBar() {
   return (
     <div className="nav-bar-container">
-      <img className="not-pablo-logo" src={NotPabloLogo} alt="Not Pablo logo" />
-      {/* <div className="social-media-icons">
+      <div className="pablo-img-container">
+        <img className="pablo-img" src={Pablo} alt="Pablo the goat" />
+      </div>
+      <div className="logo-img-container">
+        <img
+          className="not-pablo-logo"
+          src={NotPabloLogo}
+          alt="Not Pablo logo"
+        />
+      </div>
+      <div className="social-media-icons">
         <a
           className="icon"
           href="https://www.facebook.com/PabloSecretWeaponSanchez/"
@@ -20,7 +30,7 @@ function NavBar() {
         <a className="icon" href="https://www.instagram.com/not.pablo.sanchez/">
           <IoLogoInstagram size={35} color="white" />
         </a>
-      </div> */}
+      </div>
     </div>
   );
 }
