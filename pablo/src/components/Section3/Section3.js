@@ -1,6 +1,8 @@
 import React from "react";
 import "./Section3.scss";
 import NotPabloLogo from "../../images/NotPabloLogo.png";
+import { NavLink } from "react-router-dom";
+
 function Section3() {
   return (
     <div className="section-3-container">
@@ -8,43 +10,71 @@ function Section3() {
         <h2 className="section-header">Featured</h2>
       </div>
       <div className="section-3-content">
+        {/* 10th article  */}
         <div className="section-3-main-img">
-          <img
-            className="main-image"
-            src={NotPabloLogo}
-            alt="Main article image"
-          />
+          <NavLink
+            to="/article10"
+            activeClassName="activeNavButton"
+            className="article-link"
+          >
+            <img
+              className="main-image"
+              src={NotPabloLogo}
+              alt="Main article image"
+            />
+          </NavLink>
         </div>
         <div className="second-img-container">
+          {/* 11th article  */}
           <div className="section-3-second-img">
-            <img
-              className="secondary-image"
-              src={NotPabloLogo}
-              alt="Secondary article image"
-            />
-            <a className="article-link" href="#" alt="article link">
-              This is the header for an article: blah blah blah blah
-            </a>
+            <NavLink
+              to="/article11"
+              activeClassName="activeNavButton"
+              className="article-link"
+            >
+              <img
+                className="secondary-image"
+                src={NotPabloLogo}
+                alt="Secondary article image"
+              />
+              <a className="article-link" href="#" alt="article link">
+                This is the header for an article: blah blah blah blah
+              </a>
+            </NavLink>
           </div>
           <div className="section-3-second-img">
-            <img
-              className="secondary-image"
-              src={NotPabloLogo}
-              alt="Secondary article image"
-            />
-            <a className="article-link" href="#" alt="article link">
-              This is the header for an article: blah blah blah blah
-            </a>
+            {/* 12th article  */}
+            <NavLink
+              to="/article12"
+              activeClassName="activeNavButton"
+              className="article-link"
+            >
+              <img
+                className="secondary-image"
+                src={NotPabloLogo}
+                alt="Secondary article image"
+              />
+              <a className="article-link" href="#" alt="article link">
+                This is the header for an article: blah blah blah blah
+              </a>
+            </NavLink>
           </div>
           <div className="section-3-second-img">
-            <img
-              className="secondary-image"
-              src={NotPabloLogo}
-              alt="Secondary article image"
-            />
-            <a className="article-link" href="#" alt="article link">
-              This is the header for an article: blah blah blah blah
-            </a>
+            {/* 13th article  */}
+            <NavLink
+              to="/article13"
+              activeClassName="activeNavButton"
+              className="article-link"
+            >
+              <img
+                className="secondary-image"
+                src={NotPabloLogo}
+                alt="Secondary article image"
+              />
+              <a className="article-link" href="#" alt="article link">
+                This is the header for an article: blah blah blah blah
+              </a>
+            </NavLink>
           </div>
         </div>
       </div>
