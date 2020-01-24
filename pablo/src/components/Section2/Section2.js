@@ -10,7 +10,7 @@ function Section2() {
         <h2 className="section-header">Latest</h2>
       </div>
       <div className="section-2-content">
-        {/* Sixth article */}
+        {/* 6th article  */}
         <div className="section-2-main-img">
           <NavLink
             to="/article6"
@@ -25,7 +25,7 @@ function Section2() {
           </NavLink>
         </div>
         <div className="second-img-container">
-          {/* Seventh article */}
+          {/* 7th article  */}
           <div className="section-2-second-img">
             <NavLink
               to="/article7"
@@ -37,11 +37,13 @@ function Section2() {
                 src={NotPabloLogo}
                 alt="Secondary article image"
               />
-              <h4>This is the header for an article: blah blah blah blah</h4>
+              <div className="article-link">
+                This is the header for an article: blah blah blah blah
+              </div>
             </NavLink>
           </div>
-          {/* Eigth article */}
           <div className="section-2-second-img">
+            {/* 8th article  */}
             <NavLink
               to="/article8"
               activeClassName="activeNavButton"
@@ -52,11 +54,13 @@ function Section2() {
                 src={NotPabloLogo}
                 alt="Secondary article image"
               />
-              <h4>This is the header for an article: blah blah blah blah</h4>
+              <div className="article-link">
+                This is the header for an article: blah blah blah blah
+              </div>
             </NavLink>
           </div>
-          {/* Ninth article */}
           <div className="section-2-second-img">
+            {/* 9th article  */}
             <NavLink
               to="/article9"
               activeClassName="activeNavButton"
@@ -67,7 +71,9 @@ function Section2() {
                 src={NotPabloLogo}
                 alt="Secondary article image"
               />
-              <h4>This is the header for an article: blah blah blah blah</h4>
+              <div className="article-link">
+                This is the header for an article: blah blah blah blah
+              </div>
             </NavLink>
           </div>
         </div>

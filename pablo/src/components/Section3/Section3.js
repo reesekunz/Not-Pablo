@@ -37,9 +37,9 @@ function Section3() {
                 src={NotPabloLogo}
                 alt="Secondary article image"
               />
-              <a className="article-link" href="#" alt="article link">
+              <div className="article-link">
                 This is the header for an article: blah blah blah blah
-              </a>
+              </div>
             </NavLink>
           </div>
           <div className="section-3-second-img">
@@ -54,9 +54,9 @@ function Section3() {
                 src={NotPabloLogo}
                 alt="Secondary article image"
               />
-              <a className="article-link" href="#" alt="article link">
+              <div className="article-link">
                 This is the header for an article: blah blah blah blah
-              </a>
+              </div>
             </NavLink>
           </div>
           <div className="section-3-second-img">
@@ -71,9 +71,9 @@ function Section3() {
                 src={NotPabloLogo}
                 alt="Secondary article image"
               />
-              <a className="article-link" href="#" alt="article link">
+              <div className="article-link">
                 This is the header for an article: blah blah blah blah
-              </a>
+              </div>
             </NavLink>
           </div>
         </div>
