@@ -1,22 +1,56 @@
 import React from "react";
-import "./App.css";
-import { Route } from "react-router-dom";
+import "./App.scss";
+import { Route, NavLink } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
-import Section1 from "./components/Section1/Section1";
-import Section2 from "./components/Section2/Section2";
-import Section3 from "./components/Section3/Section3";
-import Footer from "./components/Footer/Footer";
+import Contact from "./components/Footer/Contact/Contact";
+import Home from "./components/Home/Home";
+import About from "./components/Footer/About/About";
+import OtherSites from "./components/Footer/OtherSites/OtherSites";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
+      {/* Main content  */}
       <div className="main-content-container">
-        <Section1 />
-        <Section2 />
-        <Section3 />
+        {/* Routes */}
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/othersites" component={OtherSites} />
       </div>
-        <Footer />
+      {/* Links  */}
+      <div className="links-container">
+        <NavLink
+          exact
+          to="/"
+          activeClassName="activeNavButton"
+          className="footer-link"
+        >
+          Home
+        </NavLink>
+        <NavLink
+          to="/about"
+          activeClassName="activeNavButton"
+          className="footer-link"
+        >
+          About
+        </NavLink>
+        <NavLink
+          to="/contact"
+          activeClassName="activeNavButton"
+          className="footer-link"
+        >
+          Contact
+        </NavLink>
+        <NavLink
+          to="/othersites"
+          activeClassName="activeNavButton"
+          className="footer-link"
+        >
+          Our Other Sites
+        </NavLink>
+      </div>
     </div>
   );
 }
