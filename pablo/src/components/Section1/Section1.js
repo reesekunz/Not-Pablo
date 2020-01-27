@@ -1,8 +1,8 @@
 import React from "react";
 import "./Section1.scss";
 import NotPabloLogo from "../../images/NotPabloLogo.png";
+import WhereAreTheyNow from "../../images/WhereAreTheyNow.jpg";
 import { NavLink } from "react-router-dom";
-
 
 function Section1() {
   return (
@@ -48,9 +48,12 @@ function Section1() {
         >
           <img
             className="main-img"
-            src={NotPabloLogo}
+            src={WhereAreTheyNow}
             alt="Featured article image"
           />
+          <div className="article-header">
+            Where Are They Now? Backyard Sports Edition
+          </div>
         </NavLink>
       </div>
       {/* Column 3 */}
