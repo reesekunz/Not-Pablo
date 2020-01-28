@@ -11,13 +11,19 @@ import Mikey from "../../images/Mikey.png";
 import Pete from "../../images/Pete.png";
 import Tony from "../../images/Tony.png";
 import Pablo from "../../images/Pablo.jpeg";
-
+import WhereAreTheyNow from "../../images/WhereAreTheyNow.jpg";
 function Article3() {
   return (
     <div className="article-container">
       <h4 className="article-header">
         Where are they now? Backyard Sports Edition
       </h4>
+      <img
+        className="article-header-img"
+        src={WhereAreTheyNow}
+        alt="Where Are They Now"
+      />
+      <div className="caption">Tony D isn't looking too hot</div>
       <p className="date-written">January 28th, 2020 </p>
       <div className="intro">
         {" "}
@@ -93,7 +99,7 @@ function Article3() {
       </div>
       {/* Pablooo */}
       <div className="player-container">
-        <strong>Me</strong>
+        <strong>Pablo Sanchez</strong>
         <img className="player-img" src={Pablo} alt="The GOAT" />
         <p>
           MLB superstar. Owner of Humongous Melonheads. In an open relationship
@@ -101,7 +107,7 @@ function Article3() {
         </p>
       </div>
       <div className="conclusion">
-        Yep, that sounds about right. At least I'm still killing it.
+        Yep, that sounds about right. At least Pablo is still killing it 🐐
       </div>
     </div>
   );

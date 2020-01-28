@@ -32,9 +32,9 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/othersites" component={OtherSites} />
         {/* Article Routes  */}
-        <Route path="/article1" component={Article1} />
+        <Route path="/kenny-bear-attack" component={Article1} />
         <Route path="/article2" component={Article2} />
-        <Route path="/article3" component={Article3} />
+        <Route path="/where-are-they-now" component={Article3} />
         <Route path="/article4" component={Article4} />
         <Route path="/article5" component={Article5} />
         <Route path="/article6" component={Article6} />

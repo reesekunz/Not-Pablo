@@ -2,6 +2,7 @@ import React from "react";
 import "./Section1.scss";
 import NotPabloLogo from "../../images/NotPabloLogo.png";
 import WhereAreTheyNow from "../../images/WhereAreTheyNow.jpg";
+import Kenny from "../../images/Kenny.png";
 import { NavLink } from "react-router-dom";
 
 function Section1() {
@@ -12,15 +13,18 @@ function Section1() {
         {/* First article */}
         <div className="section-1-second-img">
           <NavLink
-            to="/article1"
+            to="/kenny-bear-attack"
             activeClassName="activeNavButton"
             className="article-link"
           >
             <img
               className="second-img"
-              src={NotPabloLogo}
+              src={Kenny}
               alt="Secondary article image"
             />
+            <div className="article-header">
+              How exactly did Kenny end up in a wheelchair?
+            </div>
           </NavLink>
         </div>
         {/* Second article  */}
@@ -42,7 +46,7 @@ function Section1() {
       {/* Third article  */}
       <div className="section-1-main-img">
         <NavLink
-          to="/article3"
+          to="/where-are-they-now"
           activeClassName="activeNavButton"
           className="article-link"
         >
@@ -52,7 +56,7 @@ function Section1() {
             alt="Featured article image"
           />
           <div className="article-header">
-            Where Are They Now? Backyard Sports Edition
+            Where are they now? Backyard Sports edition
           </div>
         </NavLink>
       </div>
@@ -83,7 +87,6 @@ function Section1() {
               className="second-img"
               src={NotPabloLogo}
               alt="Secondary article image"
-            />
             />
           </NavLink>
         </div>
