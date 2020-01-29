@@ -4,6 +4,7 @@ import NotPabloLogo from "../../images/NotPabloLogo.png";
 import WhereAreTheyNow from "../../images/WhereAreTheyNow.jpg";
 import Kenny from "../../images/Kenny.png";
 import { NavLink } from "react-router-dom";
+import PabloCheating from "../../images/PabloCheating.png";
 
 function Section1() {
   return (
@@ -23,7 +24,7 @@ function Section1() {
               alt="Secondary article image"
             />
             <div className="article-header">
-              How exactly did Kenny end up in a wheelchair?
+              How Exactly Did Kenny End up in a Wheelchair?
             </div>
           </NavLink>
         </div>
@@ -46,17 +47,17 @@ function Section1() {
       {/* Third article  */}
       <div className="section-1-main-img">
         <NavLink
-          to="/where-are-they-now"
+          to="/pablo-scandal"
           activeClassName="activeNavButton"
           className="article-link"
         >
           <img
             className="main-img"
-            src={WhereAreTheyNow}
-            alt="Featured article image"
+            src={PabloCheating}
+            alt="Pablo Cheating Scandals"
           />
           <div className="article-header">
-            Where are they now? Backyard Sports edition
+            Astros' Scandal Runs Deeper Than We Thought
           </div>
         </NavLink>
       </div>
@@ -79,15 +80,18 @@ function Section1() {
         {/* Fifth article  */}
         <div className="section-1-second-img">
           <NavLink
-            to="/article5"
+            to="/where-are-they-now"
             activeClassName="activeNavButton"
             className="article-link"
           >
             <img
               className="second-img"
-              src={NotPabloLogo}
-              alt="Secondary article image"
+              src={WhereAreTheyNow}
+              alt="Where are they now"
             />
+            <div className="article-header">
+              Where Are They Now? Backyard Sports Edition
+            </div>
           </NavLink>
         </div>
       </div>

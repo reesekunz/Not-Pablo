@@ -36,7 +36,7 @@ function App() {
         <Route path="/article2" component={Article2} />
         <Route path="/where-are-they-now" component={Article3} />
         <Route path="/article4" component={Article4} />
-        <Route path="/article5" component={Article5} />
+        <Route path="/pablo-scandal" component={Article5} />
         <Route path="/article6" component={Article6} />
         <Route path="/article7" component={Article7} />
         <Route path="/article8" component={Article8} />
