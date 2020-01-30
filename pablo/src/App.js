@@ -37,14 +37,14 @@ function App() {
         <Route path="/where-are-they-now" component={Article3} />
         <Route path="/marky-is-killing-it" component={Article4} />
         <Route path="/pablo-scandal" component={Article5} />
-        <Route path="/article6" component={Article6} />
-        <Route path="/article7" component={Article7} />
-        <Route path="/article8" component={Article8} />
-        <Route path="/article9" component={Article9} />
-        <Route path="/article10" component={Article10} />
-        <Route path="/article11" component={Article11} />
-        <Route path="/article12" component={Article12} />
-        <Route path="/article13" component={Article13} />
+        <Route path="/pete-wheeler-promoted" component={Article6} />
+        <Route path="/annie-suspended" component={Article7} />
+        <Route path="/vinnie-the-gooch-rager" component={Article8} />
+        <Route path="/lisa-crockett-dui" component={Article9} />
+        <Route path="/pablos-decision" component={Article10} />
+        <Route path="/dante-passes-chestnut" component={Article11} />
+        <Route path="/clanky-marries-roomba" component={Article12} />
+        <Route path="/mikey-died" component={Article13} />
       </div>
       {/* Links  */}
       <div className="links-container">

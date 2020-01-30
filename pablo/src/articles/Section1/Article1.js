@@ -5,14 +5,17 @@ import Benny from "../../images/Benny.jpeg";
 function Article1() {
   return (
     <div className="article-container">
-      <h4 className="article-header">
-      How Exactly Did Kenny End up in a Wheelchair?
-      </h4>
-      <img className="article-header-img" src={Kenny} alt="Kenny Kawaguchi" />
-      <div className="caption">
-        K-Man has somehow managed to become faster while in a wheelchair.
+      <div className="article-header-container">
+        <h4 className="article-header">
+          How Exactly Did Kenny End up in a Wheelchair?
+        </h4>
+        <img className="article-header-img" src={Kenny} alt="Kenny Kawaguchi" />
+        <div className="caption">
+          K-Man has somehow managed to become faster while in a wheelchair.
+        </div>
+        <p className="date-written">January 29th, 2020 </p>
       </div>
-      <p className="date-written">January 29th, 2020 </p>
+
       <div className="content">
         <p>
           <i> "You should have seen the other guy" </i> - Kenny Kawaguchi. The

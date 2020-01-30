@@ -15,16 +15,19 @@ import WhereAreTheyNow from "../../images/WhereAreTheyNow.jpg";
 function Article3() {
   return (
     <div className="article-container">
-      <h4 className="article-header">
-        Where Are They Now? Backyard Sports Edition
-      </h4>
-      <img
-        className="article-header-img"
-        src={WhereAreTheyNow}
-        alt="Where Are They Now"
-      />
-      <div className="caption">Tony D isn't looking too hot</div>
-      <p className="date-written">January 28th, 2020 </p>
+      <div className="article-header-container">
+        <h4 className="article-header">
+          Where Are They Now? Backyard Sports Edition
+        </h4>
+        <img
+          className="article-header-img"
+          src={WhereAreTheyNow}
+          alt="Where Are They Now"
+        />
+        <div className="caption">Tony D isn't looking too hot</div>
+        <p className="date-written">January 28th, 2020 </p>
+      </div>
+
       <div className="intro">
         {" "}
         A lot of childhood stars have a difficult time transitioning to

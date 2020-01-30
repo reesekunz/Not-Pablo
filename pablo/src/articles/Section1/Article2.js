@@ -6,18 +6,22 @@ import SteeleStadium from "../../images/SteeleStadium.png";
 function Article2() {
   return (
     <div className="article-container">
-      <h4 className="article-header">
-        Pablo and Trump in Discussions to Build a Higher Wall at Steele Stadium
-      </h4>
-      <img
-        className="article-header-img"
-        src={SteeleStadium}
-        alt="Steele Stadium"
-      />
-      <div className="caption">
-        Pablo has hit over 300 home-runs out of this place.
+      <div className="article-header-container">
+        <h4 className="article-header">
+          Pablo and Trump in Discussions to Build a Higher Wall at Steele
+          Stadium
+        </h4>
+        <img
+          className="article-header-img"
+          src={SteeleStadium}
+          alt="Steele Stadium"
+        />
+        <div className="caption">
+          Pablo has hit over 300 home-runs out of this place.
+        </div>
+        <p className="date-written">January 30th, 2020 </p>
       </div>
-      <p className="date-written">January 30th, 2020 </p>
+
       <div className="content">
         <p>
           Both President Trump and Pablo are making headlines for all the wrong

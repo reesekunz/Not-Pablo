@@ -2,7 +2,10 @@ import React from "react";
 import "./Section2.scss";
 import NotPabloLogo from "../../images/NotPabloLogo.png";
 import { NavLink } from "react-router-dom";
-
+import Pete from "../../images/Pete.png";
+import Lisa from "../../images/Lisa.png";
+import Vinnie from "../../images/Vinnie.jpeg";
+import Annie from "../../images/Annie.jpeg";
 function Section2() {
   return (
     <div className="section-2-container">
@@ -13,66 +16,55 @@ function Section2() {
         {/* 6th article  */}
         <div className="section-2-main-img">
           <NavLink
-            to="/article6"
+            to="/pete-wheeler-promoted"
             activeClassName="activeNavButton"
             className="article-link"
           >
-            <img
-              className="main-image"
-              src={NotPabloLogo}
-              alt="Main article image"
-            />
+            <img className="main-image" src={Pete} alt="Pete" />
+            <div className="article-header">
+              Pete Wheeler Gets Promoted at Jimmy John's
+            </div>
           </NavLink>
         </div>
         <div className="second-img-container">
           {/* 7th article  */}
           <div className="section-2-second-img">
             <NavLink
-              to="/article7"
+              to="/annie-suspended"
               activeClassName="activeNavButton"
               className="article-link"
             >
-              <img
-                className="secondary-image"
-                src={NotPabloLogo}
-                alt="Secondary article image"
-              />
+              <img className="secondary-image" src={Annie} alt="Annie" />
               <div className="article-link">
-                This is the header for an article: blah blah blah blah
+                Annie Frazier suspended 8 games for violating substance abuse
+                policy
               </div>
             </NavLink>
           </div>
           <div className="section-2-second-img">
             {/* 8th article  */}
             <NavLink
-              to="/article8"
+              to="/vinnie-the-gooch-rager"
               activeClassName="activeNavButton"
               className="article-link"
             >
-              <img
-                className="secondary-image"
-                src={NotPabloLogo}
-                alt="Secondary article image"
-              />
+              <img className="secondary-image" src={Vinnie} alt="Vinnie" />
               <div className="article-link">
-                This is the header for an article: blah blah blah blah
+                Vinnie the Gooch throws "lit" rager. Parents ground him
+                indefinitely.
               </div>
             </NavLink>
           </div>
           <div className="section-2-second-img">
             {/* 9th article  */}
             <NavLink
-              to="/article9"
+              to="/lisa-crockett-dui"
               activeClassName="activeNavButton"
               className="article-link"
             >
-              <img
-                className="secondary-image"
-                src={NotPabloLogo}
-                alt="Secondary article image"
-              />
+              <img className="secondary-image" src={Lisa} alt="Lisa" />
               <div className="article-link">
-                This is the header for an article: blah blah blah blah
+                Lisa Crockett arrested with DUI, blames it on Kombucha Tea.
               </div>
             </NavLink>
           </div>

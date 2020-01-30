@@ -2,6 +2,10 @@ import React from "react";
 import "./Section3.scss";
 import NotPabloLogo from "../../images/NotPabloLogo.png";
 import { NavLink } from "react-router-dom";
+import Dante from "../../images/Dante.png";
+import TheDecision from "../../images/TheDecision.jpeg";
+import MrClanky from "../../images/MrClanky.jpeg";
+import Mikey from "../../images/Mikey.png";
 
 function Section3() {
   return (
@@ -13,66 +17,57 @@ function Section3() {
         {/* 10th article  */}
         <div className="section-3-main-img">
           <NavLink
-            to="/article10"
+            to="/pablos-decision"
             activeClassName="activeNavButton"
             className="article-link"
           >
-            <img
-              className="main-image"
-              src={NotPabloLogo}
-              alt="Main article image"
-            />
+            <img className="main-image" src={TheDecision} alt="Mystery Hat" />
+            <div className="article-header">Pablo Sanchez: The Decision</div>
           </NavLink>
         </div>
         <div className="second-img-container">
           {/* 11th article  */}
           <div className="section-3-second-img">
             <NavLink
-              to="/article11"
+              to="/dante-passes-chestnut"
               activeClassName="activeNavButton"
               className="article-link"
             >
-              <img
-                className="secondary-image"
-                src={NotPabloLogo}
-                alt="Secondary article image"
-              />
+              <img className="secondary-image" src={Dante} alt="Dante" />
               <div className="article-link">
-                This is the header for an article: blah blah blah blah
+                Dante Robinson Breaks Joey Chesnut's Hot Dog Record
               </div>
             </NavLink>
           </div>
           <div className="section-3-second-img">
             {/* 12th article  */}
             <NavLink
-              to="/article12"
+              to="/clanky-marries-roomba"
               activeClassName="activeNavButton"
               className="article-link"
             >
               <img
                 className="secondary-image"
-                src={NotPabloLogo}
+                src={MrClanky}
                 alt="Secondary article image"
               />
-              <div className="article-link">
-                This is the header for an article: blah blah blah blah
-              </div>
+              <div className="article-link">Mr. Clanky Marries a Roomba</div>
             </NavLink>
           </div>
           <div className="section-3-second-img">
             {/* 13th article  */}
             <NavLink
-              to="/article13"
+              to="/mikey-died"
               activeClassName="activeNavButton"
               className="article-link"
             >
               <img
                 className="secondary-image"
-                src={NotPabloLogo}
+                src={Mikey}
                 alt="Secondary article image"
               />
               <div className="article-link">
-                This is the header for an article: blah blah blah blah
+                Mikey Thomas Dead From Ebola Virus
               </div>
             </NavLink>
           </div>

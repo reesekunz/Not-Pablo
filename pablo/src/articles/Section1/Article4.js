@@ -6,13 +6,14 @@ import Marky2 from "../../images/Marky2.jpeg";
 function Article4() {
   return (
     <div className="article-container">
-      <h4 className="article-header">
-        Marky Is Having so Much Success on FarmersOnly That People Are
-        Pretending to Be Him
-      </h4>
-      <img className="article-header-img" src={Marky} alt="Marky" />
-      <div className="caption">This guy is killing it.</div>
-      <p className="date-written">January 30th, 2020 </p>
+      <div className="article-header-container">
+        <h4 className="article-header">
+          People Are Impersonating Marky Dubios on FarmersOnly
+        </h4>
+        <img className="article-header-img" src={Marky} alt="Marky" />
+        <div className="caption">This guy is killing it.</div>
+        <p className="date-written">January 30th, 2020 </p>
+      </div>
       <div className="content">
         <p>
           Most people in Backyard Sports are known for their elite athletic
@@ -22,8 +23,8 @@ function Article4() {
         </p>
         <p>
           Recently, Marky Dubios was having so much success on his
-          farmersonly.com that there have been numerous reports of people
-          stealing his identity just to meet up with women.
+          farmersonly.com account that there have been numerous reports of
+          people stealing his identity in a sleazy attempt to meet up with women.
         </p>
         <p>
           PSA, ladies, if you get matched up with a Marky Dubios, it’s probably

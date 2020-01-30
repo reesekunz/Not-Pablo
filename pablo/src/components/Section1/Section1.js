@@ -78,8 +78,7 @@ function Section1() {
           >
             <img className="third-img" src={Marky} alt="Marky Dubios" />
             <div className="article-header">
-              Marky Is Having so Much Success on FarmersOnly That People Are
-              Pretending to Be Him
+              People Are Impersonating Marky Dubios on FarmersOnly
             </div>
           </NavLink>
         </div>

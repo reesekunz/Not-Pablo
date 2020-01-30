@@ -1,6 +1,5 @@
 .section-3-container {
-  margin-top: 75px;
-  margin-bottom: 100px;
+  margin-top: 80px;
   .section-header-container {
     display: flex;
     .section-header {
@@ -16,9 +15,25 @@
       border: 1px solid black;
       width: 40%;
       height: 250px;
+      position: relative;
       .main-image {
         height: 100%;
         width: 100%;
+      }
+      .article-header {
+        position: absolute;
+        top: 40px;
+        left: 20px;
+        color: white;
+        font-size: 32px;
+        // border: 1px solid black;
+        width: 100%;
+        height: 70px;
+        font-weight: 900;
+        font-family: Impact;
+        // background-color: black;
+        padding-top: 5px;
+        text-shadow: 2px 2px black;
       }
     }
     .second-img-container {
@@ -30,13 +45,13 @@
       .section-3-second-img {
         height: 33%;
         width: 100%;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         // margin-top: 5px;
         display: flex;
         padding: 5px;
         border-bottom: 1px solid lightgray;
         .secondary-image {
-          height: 100%;
+          height: 65px;
           display: flex;
           width: 100px;
         }
@@ -47,7 +62,7 @@
           margin-left: 10px;
           text-decoration: none;
           color: black;
-          font-size: 20px;
+          font-size: 17px;
           font-weight: bold;
         }
       }

@@ -5,18 +5,22 @@ import PabloTweet from "../../images/PabloTweet.png";
 function Article5() {
   return (
     <div className="article-container">
-      <h4 className="article-header">
-        Astros' Scandal Runs Deeper Than We Thought
-      </h4>
-      <img
-        className="article-header-img"
-        src={PabloCheating}
-        alt="Pablo cheating"
-      />
-      <div className="caption">
-        Many have debated if Pablo's stats should have an asterisk next to them.
+      <div className="article-header-container">
+        <h4 className="article-header">
+          Astros' Scandal Runs Deeper Than We Thought
+        </h4>
+        <img
+          className="article-header-img"
+          src={PabloCheating}
+          alt="Pablo cheating"
+        />
+        <div className="caption">
+          Many have debated if Pablo's stats should have an asterisk next to
+          them.
+        </div>
+        <p className="date-written">January 30th, 2020 </p>
       </div>
-      <p className="date-written">January 30th, 2020 </p>
+
       <div className="content">
         <p>
           Backyard Sports commissioner Mr. Clanky is heavily investigating the
