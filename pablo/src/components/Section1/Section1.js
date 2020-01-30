@@ -5,6 +5,8 @@ import WhereAreTheyNow from "../../images/WhereAreTheyNow.jpg";
 import Kenny from "../../images/Kenny.png";
 import { NavLink } from "react-router-dom";
 import PabloCheating from "../../images/PabloCheating.png";
+import SteeleStadium from "../../images/SteeleStadium.png";
+import Marky from "../../images/Marky.png";
 
 function Section1() {
   return (
@@ -31,15 +33,19 @@ function Section1() {
         {/* Second article  */}
         <div className="section-1-third-img">
           <NavLink
-            to="/article2"
+            to="/steele-stadium-wall"
             activeClassName="activeNavButton"
             className="article-link"
           >
             <img
               className="third-img"
-              src={NotPabloLogo}
-              alt="Third article image"
+              src={SteeleStadium}
+              alt="Steele Stadium"
             />
+            <div className="article-header">
+              Pablo and Trump in Discussions to Build a Higher Wall at Steele
+              Stadium
+            </div>
           </NavLink>
         </div>
       </div>
@@ -66,15 +72,15 @@ function Section1() {
         {/* Fourth article  */}
         <div className="section-1-third-img">
           <NavLink
-            to="/article4"
+            to="/marky-is-killing-it"
             activeClassName="activeNavButton"
             className="article-link"
           >
-            <img
-              className="third-img"
-              src={NotPabloLogo}
-              alt="Third article image"
-            />
+            <img className="third-img" src={Marky} alt="Marky Dubios" />
+            <div className="article-header">
+              Marky Is Having so Much Success on FarmersOnly That People Are
+              Pretending to Be Him
+            </div>
           </NavLink>
         </div>
         {/* Fifth article  */}

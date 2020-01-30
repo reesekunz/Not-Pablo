@@ -37,9 +37,26 @@
     }
     .section-1-third-img {
       height: 40%;
+      position: relative;
+
       .third-img {
         height: 137.5px;
         width: 100%;
+      }
+      .article-header {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        color: white;
+        font-size: 25px;
+        // border: 1px solid black;
+        width: 90%;
+        height: 70px;
+        font-weight: 900;
+        font-family: Impact;
+        // background-color: black;
+        padding-top: 5px;
+        text-shadow: 2px 2px black;
       }
     }
   }
@@ -104,10 +121,25 @@
     .section-1-third-img {
       height: 40%;
       padding-bottom: 2px;
-
+      position: relative;
       .third-img {
         height: 137.5px;
         width: 100%;
+      }
+      .article-header {
+        position: absolute;
+        top: 8px;
+        left: 20px;
+        color: white;
+        font-size: 25px;
+        // border: 1px solid black;
+        width: 90%;
+        height: 70px;
+        font-weight: 900;
+        font-family: Impact;
+        // background-color: black;
+        padding-top: 5px;
+        text-shadow: 2px 2px black;
       }
     }
   }

@@ -6,7 +6,7 @@ function Article1() {
   return (
     <div className="article-container">
       <h4 className="article-header">
-        How exactly did Kenny Kawaguchi end up in a wheelchair?
+      How Exactly Did Kenny End up in a Wheelchair?
       </h4>
       <img className="article-header-img" src={Kenny} alt="Kenny Kawaguchi" />
       <div className="caption">

@@ -11,7 +11,7 @@
     margin-bottom: 0;
   }
   .caption {
-    margin-top: 0;
+    padding-top: 5px;
     font-size: 14px;
   }
   .date-written {
@@ -48,6 +48,7 @@
 
       .mid-article-img {
         width: 40%;
+        height: 300px;
       }
     }
     .conclusion {

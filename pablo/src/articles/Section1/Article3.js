@@ -16,7 +16,7 @@ function Article3() {
   return (
     <div className="article-container">
       <h4 className="article-header">
-        Where are they now? Backyard Sports Edition
+        Where Are They Now? Backyard Sports Edition
       </h4>
       <img
         className="article-header-img"
