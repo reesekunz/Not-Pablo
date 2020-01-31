@@ -2,68 +2,85 @@ import React from "react";
 import ".././Article.scss";
 import Kenny from "../../images/Kenny.png";
 import Benny from "../../images/Benny.jpeg";
+import TheDecision from "../../images/TheDecision.jpeg";
+import PabloFriends from "../../images/PabloFriends.jpeg";
 
 function Article10() {
   return (
     <div className="article-container">
       <div className="article-header-container">
-        <h4 className="article-header">
-          How Exactly Did Kenny End up in a Wheelchair?
-        </h4>
-        <img className="article-header-img" src={Kenny} alt="Kenny Kawaguchi" />
+        <h4 className="article-header">Pablo Sanchez: The Decision</h4>
+        <img
+          className="article-header-img"
+          src={TheDecision}
+          alt="Mystery hat"
+        />
         <div className="caption">
-          K-Man has somehow managed to become faster while in a wheelchair.
+          Biggest moment in the history of Backyard Sports
         </div>
-        <p className="date-written">January 29th, 2020 </p>
+        <p className="date-written">January 31st, 2020 </p>
       </div>
 
       <div className="content">
         <p>
-          <i> "You should have seen the other guy" </i> - Kenny Kawaguchi. The
-          "other guy" of course being a giant grizzly bear Kenny fought while
-          camping in the woods. Here's the full story:
+          The Humongous Melonheads famously blew a 3-1 series lead to the Flying
+          Wombats in the 2019 Backyard Sports Championship. To make matters
+          worse, the Melonheads’ organization and fans across the world now
+          await star player Pablo Sachez’s free agency decision.
         </p>
         <p>
-          The Backyard Sports crew were graduating from middle school in May of
-          1995. To celebrate, some of them decided to take a camping trip in the
-          woods. All of the kids told their respective parents they were
-          sleeping over at each other's houses, but that was a total lie. They
-          all schemed to go on this camping trip - a camping trip in which the
-          festivities revolved around drugs and alcohol.
+          Sanchez, in the midst of his prime, has reportedly been taking some
+          time to reflect on his looming decision. He is currently sipping tiki
+          drinks on an island in an undisclosed location with his two
+          girlfriends, Selena Gomez and Rihanna.
         </p>
         <p>
-          Everyone was having a great time. Marky was chasing frogs, Achmed was
-          listening to Kidz Bop, Dante was roasting hot dogs. Then they all
-          heard a scream coming from nearby - it came from Annie Frazier.
+          The Wombats, Fishes, Giants, Monsters, Socks, and Hornets have all
+          received fines for tampering earlier in the season in an attempt to
+          recruit Pablo.
         </p>
+        <p>Here are the updated odds for where Pablo ends up:</p>
         <p>
-          The gang raced over to find Annie laying on the ground. In front of
-          her was a giant fucking grizzly bear. Kenny was slightly intoxicated
-          and felt more courageous than usual. He decided to lure the grizzly
-          bear away from Annie by any means necessary.
+          Melonheads: +200 Wombats: +300 Socks: +300 Giants: +500 Monsters: +600
+          Other: +300
         </p>
+
         <div className="mid-article-img-container">
-          <img className="mid-article-img" src={Benny} alt="Benny the Jet" />
+          <img
+            className="mid-article-img"
+            src={PabloFriends}
+            alt="Pablo and friends"
+          />
           <div className="caption">
-            Kenny Kawaguchi is the real life Benny "the Jet" Rodriguez.
+            Which one of Pablo's friends will he decide to play with?
           </div>
         </div>
         <p>
-          This is where the story gets interesting. We all thought Annie was
-          just playing dead to show the bear she wasn't a threat, but it turns
-          out she was tripping on acid.
-          <i>
-            "Yeah, I vividly remember that day. Everyone thought I was playing
-            dead to show the bear I wasn't a threat, but I was actually just
-            tripping on acid."
-          </i>
-          - Annie
+          Melonheads have been perennial championship contenders for as long as
+          Pablo has been in the league. They’re the team that drafted him #1
+          overall, which has to at least give them somewhat of an advantage.
         </p>
 
         <p>
-          Kenny defeated the bear, but lost his legs. He still feels bad about
-          leaving that bear's family without a father and goes back every month
-          to check up on them.
+          Wombats could be interesting with an already stacked roster headlined
+          by Kiesha Phillips, Pete Wheeler, and Achmed Khan. But would he be
+          tarnishing his legacy joining the very team that came back from a 3-1
+          series deficit?
+        </p>
+        <p>
+          Socks have the 2nd most championships in Backyard Sports and are a
+          historic franchise. While they haven’t been great as of late, Pablo
+          would get a fresh start to be the face of the coveted franchise.{" "}
+        </p>
+        <p>
+          Pablo will reportedly air his decision next month on ESPN 8 ocho. All
+          proceeds from the hour long broadcast will go towards the Kenny K fund
+          (a fundraiser started by Kenny’s parents to help him get prosthetic
+          legs).{" "}
+        </p>
+        <p>
+          Folks, we've never witnessed something so monumental in the history of
+          Backyard Sports. #staytuned
         </p>
       </div>
     </div>

@@ -35,7 +35,7 @@ function Section3() {
             >
               <img className="secondary-image" src={Dante} alt="Dante" />
               <div className="article-link">
-                Dante Robinson Breaks Joey Chesnut's Hot Dog Record
+                Dante Robinson breaks Joey Chesnut's hot dog record
               </div>
             </NavLink>
           </div>
@@ -51,7 +51,7 @@ function Section3() {
                 src={MrClanky}
                 alt="Secondary article image"
               />
-              <div className="article-link">Mr. Clanky Marries a Roomba</div>
+              <div className="article-link">Mr. Clanky marries a Roomba</div>
             </NavLink>
           </div>
           <div className="section-3-second-img">
@@ -67,7 +67,7 @@ function Section3() {
                 alt="Secondary article image"
               />
               <div className="article-link">
-                Mikey Thomas Dead From Ebola Virus
+                Mikey Thomas dead From Ebola virus
               </div>
             </NavLink>
           </div>
