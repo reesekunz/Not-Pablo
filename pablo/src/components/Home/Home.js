@@ -6,6 +6,8 @@ import Section3 from "../Section3/Section3";
 
 import MobileHome from "./MobileHome";
 
+import StickyNav from "../NavBar/StickyNav";
+
 function Home() {
   return (
     <div>
@@ -15,6 +17,7 @@ function Home() {
         <Section2 />
       </div>
       <div className="mobile-home">
+        <StickyNav />
         <MobileHome />
       </div>
     </div>

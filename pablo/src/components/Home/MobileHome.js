@@ -19,7 +19,7 @@ function MobileHome() {
   return (
     <div className="section-2-container-mobile">
       {/* FEATURED SECTION */}
-      <div className="section-header-container-mobile">
+      <div className="section-header-container-mobile" id="trending">
         <h2 className="section-header-mobile">Trending</h2>
       </div>
       <div className="section-2-content-mobile">
@@ -93,7 +93,7 @@ function MobileHome() {
         </div>
       </div>
       {/* FEATURED SECTION */}
-      <div className="section-header-container-mobile">
+      <div className="section-header-container-mobile" id="featured">
         <h2 className="section-header-mobile">Featured</h2>
       </div>
       <div className="section-2-content-mobile">
@@ -162,7 +162,7 @@ function MobileHome() {
         </div>
       </div>
       {/* LATEST SECTION */}
-      <div className="section-header-container-mobile">
+      <div className="section-header-container-mobile" id="latest">
         <h2 className="section-header-mobile">Latest</h2>
       </div>
       <div className="section-2-content-mobile">
