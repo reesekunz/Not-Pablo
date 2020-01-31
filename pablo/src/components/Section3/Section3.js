@@ -1,6 +1,5 @@
 import React from "react";
 import "./Section3.scss";
-import NotPabloLogo from "../../images/NotPabloLogo.png";
 import { NavLink } from "react-router-dom";
 import Dante from "../../images/Dante.png";
 import TheDecision from "../../images/TheDecision.jpeg";

@@ -23,19 +23,30 @@
         width: 100%;
       }
       .article-header {
+        margin-left: 5%;
+
+        text-align: left;
         position: absolute;
         top: 40px;
         // left: 10px;
         color: white;
         font-size: 32px;
         // border: 1px solid black;
-        width: 100%;
+        width: 90%;
         height: 70px;
         font-weight: 900;
         font-family: Impact;
         // background-color: black;
         padding-top: 5px;
         text-shadow: 2px 2px black;
+        @media (max-width: 1120px) {
+          font-size: 27.5px;
+
+        }
+        @media (max-width: 800px) {
+          font-size: 25px;
+
+        }
       }
     }
     .second-img-container {
@@ -66,6 +77,9 @@
           color: black;
           font-size: 17px;
           font-weight: bold;
+          @media (max-width: 800px) {
+            font-size: 14px;
+          }
         }
       }
     }

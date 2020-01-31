@@ -1,0 +1,68 @@
+.section-2-container-mobile {
+  margin-top: 20px;
+  margin-bottom: 150px;
+  // height: 100vh;
+
+  .section-header-container-mobile {
+    display: flex;
+    // margin-top: 20px;
+    // margin-bottom: 20px;
+
+    .section-header-mobile {
+      display: flex;
+      border-bottom: 1.5px solid black;
+      margin-top: 20px;
+      width: 100%;
+      // margin-left: 20px;
+    }
+  }
+  .section-2-content-mobile {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    height: 400px;
+    // border: 1px solid red;
+    .second-img-container-mobile {
+      display: flex;
+      flex-direction: column;
+      // height: 100%;
+      width: 100%;
+      .section-2-second-img-mobile {
+        // border: 1px solid red;
+
+        height: 33%;
+        margin-right: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: flex;
+        border-bottom: 1px solid lightgray;
+        box-shadow: 1.25px 1.25px lightgray;
+
+        .secondary-image-mobile {
+          height: 65px;
+          display: flex;
+          width: 100px;
+          margin-right: 10px; // These two lines of coding are being buggy for some reason and its pissing me off lol
+          margin-left: 10px; //
+        }
+        .article-link-mobile {
+          text-align: left;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          text-decoration: none;
+          color: black;
+          font-size: 15px;
+          font-weight: bold;
+          width: 95%;
+        }
+      }
+    }
+  }
+  .section-2-second-img-mobile:hover {
+    background-color: lightgray;
+  }
+}

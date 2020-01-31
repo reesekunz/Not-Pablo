@@ -1,14 +1,17 @@
 .home {
   display: flex;
   flex-direction: column;
-  @media (max-width: 800px) {
+  @media (max-width: 500px) {
     display: none;
   }
 }
 .mobile-home {
   display: none;
-  @media (max-width: 800px) {
+  @media (max-width: 500px) {
     display: flex;
     flex-direction: column;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 }
