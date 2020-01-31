@@ -27,8 +27,8 @@ function Article3() {
           alt="Where Are They Now"
         />
         <div className="caption">Tony D isn't looking too hot</div>
-        <p className="date-written">January 28th, 2020 </p>
       </div>
+        <p className="date-written">January 28th, 2020 </p>
 
       <div className="intro">
         {" "}

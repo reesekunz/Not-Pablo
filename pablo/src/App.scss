@@ -4,6 +4,9 @@
 .main-content-container {
   margin-left: 100px;
   margin-right: 100px;
+  @media (max-width: 800px) {
+    margin: 0;
+  }
 }
 .links-container {
   border: 1px solid black;

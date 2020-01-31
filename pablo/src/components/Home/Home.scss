@@ -1,0 +1,14 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  @media (max-width: 800px) {
+    display: none;
+  }
+}
+.mobile-home {
+  display: none;
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+  }
+}

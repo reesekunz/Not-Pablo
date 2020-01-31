@@ -14,8 +14,8 @@ function Article11() {
         </h4>
         <img className="article-header-img" src={Dante} alt="Dante" />
         <div className="caption">The Pablo Sanchez of competitive eating.</div>
-        <p className="date-written">January 31st, 2020 </p>
       </div>
+        <p className="date-written">January 31st, 2020 </p>
 
       <div className="content">
         <p>

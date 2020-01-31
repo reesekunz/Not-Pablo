@@ -12,8 +12,8 @@ function Article12() {
         <h4 className="article-header">Mr. Clanky Marries a Roomba</h4>
         <img className="article-header-img" src={MrClanky} alt="Mr Clanky" />
         <div className="caption">Mr Clanky is offically a married man.</div>
-        <p className="date-written">January 31st, 2020 </p>
       </div>
+        <p className="date-written">January 31st, 2020 </p>
 
       <div className="content">
         <p>

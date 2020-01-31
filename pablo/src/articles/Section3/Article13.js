@@ -12,8 +12,8 @@ function Article13() {
         <h4 className="article-header">Mikey Thomas Dead From Ebola Virus</h4>
         <img className="article-header-img" src={Mikey} alt="Mikey" />
         <div className="caption">Pour one out for the homie.</div>
-        <p className="date-written">January 31st, 2020 </p>
       </div>
+      <p className="date-written">January 31st, 2020 </p>
 
       <div className="content">
         <p>

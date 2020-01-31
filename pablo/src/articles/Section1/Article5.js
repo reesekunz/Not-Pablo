@@ -20,8 +20,8 @@ function Article5() {
           Many have debated if Pablo's stats should have an asterisk next to
           them.
         </div>
-        <p className="date-written">January 30th, 2020 </p>
       </div>
+        <p className="date-written">January 30th, 2020 </p>
 
       <div className="content">
         <p>

@@ -15,8 +15,8 @@ function Article9() {
         <div className="caption">
           Vinnie wasn't the only one arrested the night of his party.
         </div>
-        <p className="date-written">January 29th, 2020 </p>
       </div>
+        <p className="date-written">January 29th, 2020 </p>
 
       <div className="content">
         <p>

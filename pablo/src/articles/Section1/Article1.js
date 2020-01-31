@@ -14,8 +14,8 @@ function Article1() {
         <div className="caption">
           K-Man has somehow managed to become faster while in a wheelchair.
         </div>
-        <p className="date-written">January 29th, 2020 </p>
       </div>
+        <p className="date-written">January 29th, 2020 </p>
 
       <div className="content">
         <p>

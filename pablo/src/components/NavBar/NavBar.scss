@@ -4,16 +4,32 @@
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  @media (max-width: 800px) {
+    display: flex;
+  }
+
   .pablo-img-container {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 34%;
+    @media (max-width: 800px) {
+      width: 100%;
+    }
     .pablo-img {
       border-radius: 50%;
       height: 150px;
-      width: auto;
+      width: 170px;
       border: 1.5px solid white;
+
+      @media (max-width: 800px) {
+        height: 130px;
+        width: 150px;
+      }
+      @media (max-width: 500px) {
+        height: 110px;
+        width: 130px;
+      }
     }
   }
   .logo-img-container {
@@ -21,9 +37,20 @@
     align-items: center;
     justify-content: center;
     width: 33%;
+    @media (max-width: 800px) {
+      width: 100%;
+    }
     .not-pablo-logo {
       height: 180px;
       width: 400px;
+      @media (max-width: 800px) {
+        height: 160px;
+        width: 380px;
+      }
+      @media (max-width: 500px) {
+        height: 140px;
+        width: 300px;
+      }
     }
   }
   .social-media-icons {
@@ -33,6 +60,10 @@
     justify-content: center;
 
     margin-bottom: 0px;
+    @media (max-width: 800px) {
+      width: 100%;
+      display: none;
+    }
     .icon {
       margin-left: 5%;
     }

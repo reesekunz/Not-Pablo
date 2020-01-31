@@ -13,8 +13,8 @@ function Article8() {
         </h4>
         <img className="article-header-img" src={Vinnie} alt="Vinnie" />
         <div className="caption">Vinnie the Gooch is one chill dude. </div>
-        <p className="date-written">January 31st, 2020 </p>
       </div>
+        <p className="date-written">January 31st, 2020 </p>
 
       <div className="content">
         <p>

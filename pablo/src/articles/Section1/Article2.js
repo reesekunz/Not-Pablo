@@ -21,8 +21,8 @@ function Article2() {
         <div className="caption">
           Pablo has hit over 300 home-runs out of this place.
         </div>
-        <p className="date-written">January 30th, 2020 </p>
       </div>
+        <p className="date-written">January 30th, 2020 </p>
 
       <div className="content">
         <p>

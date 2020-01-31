@@ -19,8 +19,8 @@ function Article10() {
         <div className="caption">
           Biggest moment in the history of Backyard Sports
         </div>
-        <p className="date-written">January 31st, 2020 </p>
       </div>
+        <p className="date-written">January 31st, 2020 </p>
 
       <div className="content">
         <p>

@@ -13,8 +13,8 @@ function Article4() {
         </h4>
         <img className="article-header-img" src={Marky} alt="Marky" />
         <div className="caption">This guy is killing it.</div>
-        <p className="date-written">January 30th, 2020 </p>
       </div>
+        <p className="date-written">January 30th, 2020 </p>
       <div className="content">
         <p>
           Most people in Backyard Sports are known for their elite athletic
