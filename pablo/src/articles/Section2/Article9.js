@@ -1,70 +1,50 @@
 import React from "react";
 import ".././Article.scss";
-import Kenny from "../../images/Kenny.png";
-import Benny from "../../images/Benny.jpeg";
+import Lisa from "../../images/Lisa.png";
+import Kombucha from "../../images/Kombucha.jpeg";
 
 function Article9() {
   return (
     <div className="article-container">
       <div className="article-header-container">
         <h4 className="article-header">
-          How Exactly Did Kenny End up in a Wheelchair?
+          Lisa Crockett Arrested with DUI, Blames it on Kombucha Tea
         </h4>
-        <img className="article-header-img" src={Kenny} alt="Kenny Kawaguchi" />
+        <img className="article-header-img" src={Lisa} alt="Lisa" />
         <div className="caption">
-          K-Man has somehow managed to become faster while in a wheelchair.
+          Vinnie wasn't the only one arrested the night of his party.
         </div>
         <p className="date-written">January 29th, 2020 </p>
       </div>
 
       <div className="content">
         <p>
-          <i> "You should have seen the other guy" </i> - Kenny Kawaguchi. The
-          "other guy" of course being a giant grizzly bear Kenny fought while
-          camping in the woods. Here's the full story:
+          Lisa Crockett is adamant that she did not have a single sip of alcohol
+          outside of the small amount of it that is in Kombucha Tea.
         </p>
         <p>
-          The Backyard Sports crew were graduating from middle school in May of
-          1995. To celebrate, some of them decided to take a camping trip in the
-          woods. All of the kids told their respective parents they were
-          sleeping over at each other's houses, but that was a total lie. They
-          all schemed to go on this camping trip - a camping trip in which the
-          festivities revolved around drugs and alcohol.
+          Authorities found her swerving on her way home the night of Vinnie the
+          Gooch's party. Lisa recorded a .22 BAC that night.
         </p>
         <p>
-          Everyone was having a great time. Marky was chasing frogs, Achmed was
-          listening to Kidz Bop, Dante was roasting hot dogs. Then they all
-          heard a scream coming from nearby - it came from Annie Frazier.
-        </p>
-        <p>
-          The gang raced over to find Annie laying on the ground. In front of
-          her was a giant fucking grizzly bear. Kenny was slightly intoxicated
-          and felt more courageous than usual. He decided to lure the grizzly
-          bear away from Annie by any means necessary.
+          <i>"That girl was easily the most fucked up person at the party."</i> - Ashley
+          Webber
         </p>
         <div className="mid-article-img-container">
-          <img className="mid-article-img" src={Benny} alt="Benny the Jet" />
-          <div className="caption">
-            Kenny Kawaguchi is the real life Benny "the Jet" Rodriguez.
-          </div>
+          <img className="mid-article-img" src={Kombucha} alt="Kombucha" />
+          <div className="caption">There is 0.5% alcohol in Kombucha.</div>
         </div>
         <p>
-          This is where the story gets interesting. We all thought Annie was
-          just playing dead to show the bear she wasn't a threat, but it turns
-          out she was tripping on acid.
-          <i>
-            "Yeah, I vividly remember that day. Everyone thought I was playing
-            dead to show the bear I wasn't a threat, but I was actually just
-            tripping on acid."
-          </i>
-          - Annie
+          Lisa marks the 3rd Backyard Sports member arrested in the past month
+          alone.
         </p>
-
         <p>
-          Kenny defeated the bear, but lost his legs. He still feels bad about
-          leaving that bear's family without a father and goes back every month
-          to check up on them.
+          <i>"These kids are a bunch of degenerates".</i> - commissioner Clanky
         </p>
+        <p>
+          Lisa definitely has some explaining to do. Such an innocent face, yet
+          so many concrete facts going against her at the moment.
+        </p>{" "}
       </div>
     </div>
   );

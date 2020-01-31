@@ -1,69 +1,50 @@
 import React from "react";
 import ".././Article.scss";
-import Kenny from "../../images/Kenny.png";
+import Mikey from "../../images/Mikey.png";
 import Benny from "../../images/Benny.jpeg";
+import MikeyCard from "../../images/MikeyCard.jpeg";
 
 function Article13() {
   return (
     <div className="article-container">
       <div className="article-header-container">
-        <h4 className="article-header">
-          How Exactly Did Kenny End up in a Wheelchair?
-        </h4>
-        <img className="article-header-img" src={Kenny} alt="Kenny Kawaguchi" />
-        <div className="caption">
-          K-Man has somehow managed to become faster while in a wheelchair.
-        </div>
-        <p className="date-written">January 29th, 2020 </p>
+        <h4 className="article-header">Mikey Thomas Dead From Ebola Virus</h4>
+        <img className="article-header-img" src={Mikey} alt="Mikey" />
+        <div className="caption">Pour one out for the homie.</div>
+        <p className="date-written">January 31st, 2020 </p>
       </div>
 
       <div className="content">
+        <p>Mikey Thomas has passed away from the Ebola virus at the age of 14.</p>
         <p>
-          <i> "You should have seen the other guy" </i> - Kenny Kawaguchi. The
-          "other guy" of course being a giant grizzly bear Kenny fought while
-          camping in the woods. Here's the full story:
+          "I'm not suprised. That dude was constantly sneezing. It kind of
+          annoyed me, if I'm being honest" - Mikey's father
         </p>
         <p>
-          The Backyard Sports crew were graduating from middle school in May of
-          1995. To celebrate, some of them decided to take a camping trip in the
-          woods. All of the kids told their respective parents they were
-          sleeping over at each other's houses, but that was a total lie. They
-          all schemed to go on this camping trip - a camping trip in which the
-          festivities revolved around drugs and alcohol.
-        </p>
-        <p>
-          Everyone was having a great time. Marky was chasing frogs, Achmed was
-          listening to Kidz Bop, Dante was roasting hot dogs. Then they all
-          heard a scream coming from nearby - it came from Annie Frazier.
-        </p>
-        <p>
-          The gang raced over to find Annie laying on the ground. In front of
-          her was a giant fucking grizzly bear. Kenny was slightly intoxicated
-          and felt more courageous than usual. He decided to lure the grizzly
-          bear away from Annie by any means necessary.
-        </p>
-        <div className="mid-article-img-container">
-          <img className="mid-article-img" src={Benny} alt="Benny the Jet" />
-          <div className="caption">
-            Kenny Kawaguchi is the real life Benny "the Jet" Rodriguez.
-          </div>
-        </div>
-        <p>
-          This is where the story gets interesting. We all thought Annie was
-          just playing dead to show the bear she wasn't a threat, but it turns
-          out she was tripping on acid.
-          <i>
-            "Yeah, I vividly remember that day. Everyone thought I was playing
-            dead to show the bear I wasn't a threat, but I was actually just
-            tripping on acid."
-          </i>
-          - Annie
+          Kleenex's stock has reportedly been plummeting after news of Mikey's
+          death got out.
         </p>
 
+        <div className="mid-article-img-container">
+          <img className="mid-article-img" src={MikeyCard} alt="Mikey Card" />
+          <div className="caption">Poor dude never even stood a chance.</div>
+        </div>
         <p>
-          Kenny defeated the bear, but lost his legs. He still feels bad about
-          leaving that bear's family without a father and goes back every month
-          to check up on them.
+          To commemorate the life of Mikey, who went by the nickame "Nugget",
+          all Backyard Sports players are eating 10 Chick-Fil-A nuggets.
+        </p>
+        <p>
+          The Giants have picked up Reese Worthington off of waivers to replace
+          Thomas in the lineup.
+        </p>
+        <p>
+          Mikey Thomas wasn't the healthiest person, but that dude had as much
+          power as anyone in the entire league. That will be a tough void to
+          fill for the Giants.
+        </p>
+        <p>
+          Thoughts and prayers are with the Thomas' family during this difficult
+          time, although his dad didn't even really seem like he gave a shit.
         </p>
       </div>
     </div>

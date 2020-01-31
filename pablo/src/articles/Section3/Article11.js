@@ -1,69 +1,64 @@
 import React from "react";
 import ".././Article.scss";
-import Kenny from "../../images/Kenny.png";
 import Benny from "../../images/Benny.jpeg";
+import Dante from "../../images/Dante.png";
+import JoeyTweet from "../../images/JoeyTweet.jpg"
 
 function Article11() {
   return (
     <div className="article-container">
       <div className="article-header-container">
         <h4 className="article-header">
-          How Exactly Did Kenny End up in a Wheelchair?
+          Dante Robinson Breaks Joey Chestnut's Hot Dog Record
         </h4>
-        <img className="article-header-img" src={Kenny} alt="Kenny Kawaguchi" />
-        <div className="caption">
-          K-Man has somehow managed to become faster while in a wheelchair.
-        </div>
-        <p className="date-written">January 29th, 2020 </p>
+        <img className="article-header-img" src={Dante} alt="Dante" />
+        <div className="caption">The Pablo Sanchez of competitive eating.</div>
+        <p className="date-written">January 31st, 2020 </p>
       </div>
 
       <div className="content">
         <p>
-          <i> "You should have seen the other guy" </i> - Kenny Kawaguchi. The
-          "other guy" of course being a giant grizzly bear Kenny fought while
-          camping in the woods. Here's the full story:
+          Dante Robinson obliterated Joey Chestnut’s 74 hot dog record, pounding
+          an impressive 86 hot dogs in 10 minutes.
         </p>
         <p>
-          The Backyard Sports crew were graduating from middle school in May of
-          1995. To celebrate, some of them decided to take a camping trip in the
-          woods. All of the kids told their respective parents they were
-          sleeping over at each other's houses, but that was a total lie. They
-          all schemed to go on this camping trip - a camping trip in which the
-          festivities revolved around drugs and alcohol.
-        </p>
-        <p>
-          Everyone was having a great time. Marky was chasing frogs, Achmed was
-          listening to Kidz Bop, Dante was roasting hot dogs. Then they all
-          heard a scream coming from nearby - it came from Annie Frazier.
-        </p>
-        <p>
-          The gang raced over to find Annie laying on the ground. In front of
-          her was a giant fucking grizzly bear. Kenny was slightly intoxicated
-          and felt more courageous than usual. He decided to lure the grizzly
-          bear away from Annie by any means necessary.
-        </p>
-        <div className="mid-article-img-container">
-          <img className="mid-article-img" src={Benny} alt="Benny the Jet" />
-          <div className="caption">
-            Kenny Kawaguchi is the real life Benny "the Jet" Rodriguez.
-          </div>
-        </div>
-        <p>
-          This is where the story gets interesting. We all thought Annie was
-          just playing dead to show the bear she wasn't a threat, but it turns
-          out she was tripping on acid.
-          <i>
-            "Yeah, I vividly remember that day. Everyone thought I was playing
-            dead to show the bear I wasn't a threat, but I was actually just
-            tripping on acid."
-          </i>
-          - Annie
+          Dante ate close to 30,000 calories worth of food in that 10 minutes
+          alone.
         </p>
 
         <p>
-          Kenny defeated the bear, but lost his legs. He still feels bad about
-          leaving that bear's family without a father and goes back every month
-          to check up on them.
+          Coming in 2nd was Kiesha Phillips, who has been a runner-up to Dante
+          for 10 years and counting.
+        </p>
+
+        <p>
+          Other competitors are in talks of unionizing and creating a less
+          competitive version of their current hot dog eating contests. One that
+          Dante would not be invited to.
+        </p>
+        <p>
+          While many competitors use the “dunking” method of dunking their bread
+          in their water to digest easier and more quickly, Dante uses his idol
+          Takeru Kobayashi’s “Solomon Method.” He breaks the hot dog in half,
+          eats both halves simultaneously, and then proceeds to jump up and
+          down.
+        </p>
+        <div className="mid-article-img-container">
+          <img className="mid-article-img" src={JoeyTweet} alt="Joey tweet" />
+          <div className="caption">
+            Game recognizes game.
+          </div>
+        </div>
+        <p>
+          Early Bitcoin investor Jorge Garcia has reportedly won over $300,000
+          betting on Dante to win the hot dog contest each year.{" "}
+        </p>
+        <p>
+          Dante himself has won over $100,000 from his victories, but he claims
+          to not be in it for the money.
+        </p>
+        <p>
+          <i>"I just like eating hot dogs, man."</i> - Dante Robinson
         </p>
       </div>
     </div>

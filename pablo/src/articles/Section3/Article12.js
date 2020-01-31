@@ -1,70 +1,84 @@
 import React from "react";
 import ".././Article.scss";
-import Kenny from "../../images/Kenny.png";
-import Benny from "../../images/Benny.jpeg";
+import MrClanky from "../../images/MrClanky.jpeg";
+import Roomba from "../../images/Roomba.jpg";
+import TinCanAlley from "../../images/TinCanAlley.jpeg";
 
 function Article12() {
   return (
     <div className="article-container">
       <div className="article-header-container">
-        <h4 className="article-header">
-          How Exactly Did Kenny End up in a Wheelchair?
-        </h4>
-        <img className="article-header-img" src={Kenny} alt="Kenny Kawaguchi" />
-        <div className="caption">
-          K-Man has somehow managed to become faster while in a wheelchair.
-        </div>
-        <p className="date-written">January 29th, 2020 </p>
+        <h4 className="article-header">Mr. Clanky Marries a Roomba</h4>
+        <img className="article-header-img" src={MrClanky} alt="Mr Clanky" />
+        <div className="caption">Mr Clanky is offically a married man.</div>
+        <p className="date-written">January 31st, 2020 </p>
       </div>
 
       <div className="content">
         <p>
-          <i> "You should have seen the other guy" </i> - Kenny Kawaguchi. The
-          "other guy" of course being a giant grizzly bear Kenny fought while
-          camping in the woods. Here's the full story:
-        </p>
-        <p>
-          The Backyard Sports crew were graduating from middle school in May of
-          1995. To celebrate, some of them decided to take a camping trip in the
-          woods. All of the kids told their respective parents they were
-          sleeping over at each other's houses, but that was a total lie. They
-          all schemed to go on this camping trip - a camping trip in which the
-          festivities revolved around drugs and alcohol.
-        </p>
-        <p>
-          Everyone was having a great time. Marky was chasing frogs, Achmed was
-          listening to Kidz Bop, Dante was roasting hot dogs. Then they all
-          heard a scream coming from nearby - it came from Annie Frazier.
-        </p>
-        <p>
-          The gang raced over to find Annie laying on the ground. In front of
-          her was a giant fucking grizzly bear. Kenny was slightly intoxicated
-          and felt more courageous than usual. He decided to lure the grizzly
-          bear away from Annie by any means necessary.
+          Backyard Sports commissioner Clanky and a Roomba tied the knot last
+          Saturday. The venue, Tin Can Alley, was beautiful and symbolic - Mr.
+          Clanky actually rescued his now-wife out of the dumpster during a game
+          there 5 years back.
         </p>
         <div className="mid-article-img-container">
-          <img className="mid-article-img" src={Benny} alt="Benny the Jet" />
+          <img
+            className="mid-article-img"
+            src={TinCanAlley}
+            alt="Tin Can Alley"
+          />
           <div className="caption">
-            Kenny Kawaguchi is the real life Benny "the Jet" Rodriguez.
+            They reportedly want to name one child after Tin Can Alley.
           </div>
         </div>
         <p>
-          This is where the story gets interesting. We all thought Annie was
-          just playing dead to show the bear she wasn't a threat, but it turns
-          out she was tripping on acid.
           <i>
-            "Yeah, I vividly remember that day. Everyone thought I was playing
-            dead to show the bear I wasn't a threat, but I was actually just
-            tripping on acid."
-          </i>
-          - Annie
+            “Yep. My owner threw me away because he got a newer Roomba. If it
+            wasn’t for Mr. Clanky I wouldn’t be here.”{" "}
+          </i>{" "}
+          - Mrs. Clanky{" "}
+        </p>
+        <p>
+          <i>
+            Are you familiar with the concept of Moneyball? Teams building
+            around cheap players often overlooked because of weird quirks that
+            others may be turned off by and don't want to deal with. That's how
+            I feel about my wife.
+          </i>{" "}
+          - Mr. Clanky
+        </p>
+        <p>
+          The reception was amazing as all of the Backyard Sports crew came to
+          witness what appears to be the start to a long and happy marriage. The
+          after party… was a different story.
+        </p>
+        <p>
+          Everything was going fine until Tony Delvecchio got too drunk and
+          started making a scene. It all went downhill from there.
+        </p>
+        <p>
+          Jocinda Smith confronted Pablo about how he apparently “ghosted” her
+          after a Tinder date.
+        </p>
+        <div className="mid-article-img-container">
+          <img className="mid-article-img" src={Roomba} alt="Roomba" />
+          <div className="caption">
+            Mr Clanky (left) and Roomba (right) tied the knot
+          </div>
+        </div>
+        <p>
+          The Weber twins started fighting each other over who actually loves
+          Jorge Garcia more, claiming that the other one is just in it for the
+          money.
         </p>
 
         <p>
-          Kenny defeated the bear, but lost his legs. He still feels bad about
-          leaving that bear's family without a father and goes back every month
-          to check up on them.
+          Dante Robinson brought pot brownies and momentarily left them
+          unattended. Annie Frazier claims she “unknowingly put them in her
+          system”. Yeah, ok.
         </p>
+        <p>Dimitri was also being creepy.</p>
+        <p>Party aside, we couldn't be happier for the two.</p>
       </div>
     </div>
   );

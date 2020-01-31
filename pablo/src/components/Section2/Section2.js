@@ -50,8 +50,7 @@ function Section2() {
             >
               <img className="secondary-image" src={Vinnie} alt="Vinnie" />
               <div className="article-link">
-                Vinnie the Gooch throws "lit" rager. Parents ground him
-                indefinitely.
+                Vinnie the Gooch throws "lit" rager. Currently in prison.
               </div>
             </NavLink>
           </div>
