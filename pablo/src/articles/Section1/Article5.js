@@ -2,6 +2,8 @@ import React from "react";
 import ".././Article.scss";
 import PabloCheating from "../../images/PabloCheating.png";
 import PabloTweet from "../../images/PabloTweet.png";
+import { NavLink } from "react-router-dom";
+
 function Article5() {
   return (
     <div className="article-container">
@@ -65,6 +67,26 @@ function Article5() {
           Backyard Sports is still investigating this to the fullest extent and
           we will provide more details as soon as we hear any.
         </p>
+      </div>
+      <div className="bottom-article-links">
+        <NavLink
+          to="/steele-stadium-wall"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            ⬅️ Pablo and Trump in Discussions to Build Higher Wall
+          </div>
+        </NavLink>
+        <NavLink
+          to="/marky-is-killing-it"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            People Are Impersonating Marky Dubios on FarmersOnly ➡️
+          </div>
+        </NavLink>
       </div>
     </div>
   );

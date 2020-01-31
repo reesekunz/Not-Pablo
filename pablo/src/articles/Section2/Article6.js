@@ -2,6 +2,8 @@ import React from "react";
 import ".././Article.scss";
 import Pete from "../../images/Pete.png";
 import JimmyJohns from "../../images/JimmyJohns.jpeg";
+import { NavLink } from "react-router-dom";
+
 function Article6() {
   return (
     <div className="article-container">
@@ -55,6 +57,25 @@ function Article6() {
           and his girl. He just doesn’t know about the girl, yet.”
         </p>
         <p>Continue making us all proud, Pete.</p>
+      </div>
+      <div className="bottom-article-links">
+        <NavLink
+          to="/mikey-died"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">⬅️ Mikey Thomas Dead From Ebola Virus</div>
+        </NavLink>
+        <NavLink
+          to="/annie-suspended"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            Annie Frazier Suspended 8 Games for Violating Substance Abuse Policy
+            ➡️
+          </div>
+        </NavLink>
       </div>
     </div>
   );

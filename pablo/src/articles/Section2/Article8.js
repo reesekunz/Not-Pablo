@@ -2,6 +2,7 @@ import React from "react";
 import ".././Article.scss";
 import Vinnie from "../../images/Vinnie.jpeg";
 import VinniesRager from "../../images/VinniesRager.jpeg";
+import { NavLink } from "react-router-dom";
 
 function Article8() {
   return (
@@ -56,6 +57,27 @@ function Article8() {
         </p>
 
         <p>"Heroes get remembered, but legends never die," he says.</p>
+      </div>
+      <div className="bottom-article-links">
+        <NavLink
+          to="/annie-suspended"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            ⬅️ Annie Frazier Suspended 8 Games for Violating Substance Abuse
+            Policy
+          </div>
+        </NavLink>
+        <NavLink
+          to="/lisa-crockett-dui"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            Lisa Crockett Arrested with DUI, Blames it on Kombucha Tea ➡️
+          </div>
+        </NavLink>
       </div>
     </div>
   );

@@ -2,6 +2,7 @@ import React from "react";
 import ".././Article.scss";
 import Lisa from "../../images/Lisa.png";
 import Kombucha from "../../images/Kombucha.jpeg";
+import { NavLink } from "react-router-dom";
 
 function Article9() {
   return (
@@ -27,8 +28,8 @@ function Article9() {
           Gooch's party. Lisa recorded a .22 BAC that night.
         </p>
         <p>
-          <i>"That girl was easily the most fucked up person at the party."</i> - Ashley
-          Webber
+          <i>"That girl was easily the most fucked up person at the party."</i>{" "}
+          - Ashley Webber
         </p>
         <div className="mid-article-img-container">
           <img className="mid-article-img" src={Kombucha} alt="Kombucha" />
@@ -45,6 +46,27 @@ function Article9() {
           Lisa definitely has some explaining to do. Such an innocent face, yet
           so many concrete facts going against her at the moment.
         </p>{" "}
+        <p>We're just happy no one got hurt.</p>
+      </div>
+      <div className="bottom-article-links">
+        <NavLink
+          to="/vinnie-the-gooch-rager"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            ⬅️ Vinnie the Gooch Throws "Lit" Rager. Currently in Prison.
+          </div>
+        </NavLink>
+        <NavLink
+          to="/kenny-bear-attack"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            How Exactly Did Kenny End up in a Wheelchair? ➡️
+          </div>
+        </NavLink>
       </div>
     </div>
   );

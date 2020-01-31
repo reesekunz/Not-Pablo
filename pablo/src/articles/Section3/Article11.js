@@ -2,7 +2,8 @@ import React from "react";
 import ".././Article.scss";
 import Benny from "../../images/Benny.jpeg";
 import Dante from "../../images/Dante.png";
-import JoeyTweet from "../../images/JoeyTweet.jpg"
+import JoeyTweet from "../../images/JoeyTweet.jpg";
+import { NavLink } from "react-router-dom";
 
 function Article11() {
   return (
@@ -45,9 +46,7 @@ function Article11() {
         </p>
         <div className="mid-article-img-container">
           <img className="mid-article-img" src={JoeyTweet} alt="Joey tweet" />
-          <div className="caption">
-            Game recognizes game.
-          </div>
+          <div className="caption">Game recognizes game.</div>
         </div>
         <p>
           Early Bitcoin investor Jorge Garcia has reportedly won over $300,000
@@ -60,6 +59,22 @@ function Article11() {
         <p>
           <i>"I just like eating hot dogs, man."</i> - Dante Robinson
         </p>
+      </div>
+      <div className="bottom-article-links">
+        <NavLink
+          to="/pablos-decision"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">⬅️ Pablo Sanchez: The Decision</div>
+        </NavLink>
+        <NavLink
+          to="/clanky-marries-roomba"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">Mr. Clanky Marries a Roomba ➡️</div>
+        </NavLink>
       </div>
     </div>
   );

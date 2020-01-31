@@ -3,6 +3,8 @@ import ".././Article.scss";
 import Roomba from "../../images/Roomba.jpg";
 import Benny from "../../images/Benny.jpeg";
 import SteeleStadium from "../../images/SteeleStadium.png";
+import { NavLink } from "react-router-dom";
+
 function Article2() {
   return (
     <div className="article-container">
@@ -62,6 +64,26 @@ function Article2() {
           Pablo has hit 300 career home-runs at Steele Stadium, which is almost
           200 more than the next player, Kiesha Phillips.
         </p>
+      </div>
+      <div className="bottom-article-links">
+        <NavLink
+          to="/kenny-bear-attack"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            ⬅️ How Exactly Did Kenny End up in a Wheelchair?
+          </div>
+        </NavLink>
+        <NavLink
+          to="/pablo-scandal"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            Astros' Scandal Runs Deeper Than We Thought ➡️
+          </div>
+        </NavLink>
       </div>
     </div>
   );

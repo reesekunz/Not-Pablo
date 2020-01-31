@@ -4,6 +4,7 @@ import Kenny from "../../images/Kenny.png";
 import Benny from "../../images/Benny.jpeg";
 import TheDecision from "../../images/TheDecision.jpeg";
 import PabloFriends from "../../images/PabloFriends.jpeg";
+import { NavLink } from "react-router-dom";
 
 function Article10() {
   return (
@@ -82,6 +83,26 @@ function Article10() {
           Folks, we've never witnessed something so monumental in the history of
           Backyard Sports. #staytuned
         </p>
+      </div>
+      <div className="bottom-article-links">
+        <NavLink
+          to="/where-are-they-now"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            ⬅️ Where Are They Now? Backyard Sports Edition
+          </div>
+        </NavLink>
+        <NavLink
+          to="/dante-passes-chestnut"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            Dante Robinson Breaks Joey Chestnut's Hot Dog Record ➡️
+          </div>
+        </NavLink>
       </div>
     </div>
   );

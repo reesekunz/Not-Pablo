@@ -12,6 +12,8 @@ import Pete from "../../images/Pete.png";
 import Tony from "../../images/Tony.png";
 import Pablo from "../../images/Pablo.jpeg";
 import WhereAreTheyNow from "../../images/WhereAreTheyNow.jpg";
+import { NavLink } from "react-router-dom";
+
 function Article3() {
   return (
     <div className="article-container">
@@ -111,6 +113,24 @@ function Article3() {
       </div>
       <div className="conclusion">
         Yep, that sounds about right. At least Pablo is still killing it 🐐
+      </div>
+      <div className="bottom-article-links">
+        <NavLink
+          to="/marky-is-killing-it"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            ⬅️ People Are Impersonating Marky Dubios on FarmersOnly
+          </div>
+        </NavLink>
+        <NavLink
+          to="/pablos-decision"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">Pablo Sanchez: The Decision ➡️</div>
+        </NavLink>
       </div>
     </div>
   );

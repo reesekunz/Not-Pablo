@@ -2,6 +2,7 @@ import React from "react";
 import ".././Article.scss";
 import Annie from "../../images/Annie.jpeg";
 import PlaygroundCommons from "../../images/PlaygroundCommons.png";
+import { NavLink } from "react-router-dom";
 
 function Article7() {
   return (
@@ -47,9 +48,30 @@ function Article7() {
         </p>
 
         <p>
-          Police are still looking into how she got her hands on a dangerous drug with such a high death rate.
-          Contact immediately if you know anything.
+          Police are still looking into how she got her hands on a dangerous
+          drug with such a high death rate. Contact immediately if you know
+          anything.
         </p>
+      </div>
+      <div className="bottom-article-links">
+        <NavLink
+          to="/pete-wheeler-promoted"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            ⬅️ Pete Wheeler Gets Promoted at Jimmy John's
+          </div>
+        </NavLink>
+        <NavLink
+          to="/vinnie-the-gooch-rager"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            Vinnie the Gooch Throws "Lit" Rager. Currently in Prison. ➡️
+          </div>
+        </NavLink>
       </div>
     </div>
   );

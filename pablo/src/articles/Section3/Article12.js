@@ -3,6 +3,7 @@ import ".././Article.scss";
 import MrClanky from "../../images/MrClanky.jpeg";
 import Roomba from "../../images/Roomba.jpg";
 import TinCanAlley from "../../images/TinCanAlley.jpeg";
+import { NavLink } from "react-router-dom";
 
 function Article12() {
   return (
@@ -79,6 +80,24 @@ function Article12() {
         </p>
         <p>Dimitri was also being creepy.</p>
         <p>Party aside, we couldn't be happier for the two.</p>
+      </div>
+      <div className="bottom-article-links">
+        <NavLink
+          to="/steele-stadium-wall"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            ⬅️ Dante Robinson Breaks Joey Chestnut's Hot Dog Record
+          </div>
+        </NavLink>
+        <NavLink
+          to="/mikey-died"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">Mikey Thomas Dead From Ebola Virus ➡️</div>
+        </NavLink>
       </div>
     </div>
   );

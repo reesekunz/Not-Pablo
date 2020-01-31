@@ -2,6 +2,7 @@ import React from "react";
 import ".././Article.scss";
 import Kenny from "../../images/Kenny.png";
 import Benny from "../../images/Benny.jpeg";
+import { NavLink } from "react-router-dom";
 function Article1() {
   return (
     <div className="article-container">
@@ -64,6 +65,26 @@ function Article1() {
           leaving that bear's family without a father and goes back every month
           to check up on them.
         </p>
+      </div>
+      <div className="bottom-article-links">
+        <NavLink
+          to="/lisa-crockett-dui"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            ⬅️ Lisa Crockett Arrested with DUI - Blames Kombucha Tea
+          </div>
+        </NavLink>
+        <NavLink
+          to="/steele-stadium-wall"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            Pablo and Trump in Discussions to Build Higher Wall ➡️
+          </div>
+        </NavLink>
       </div>
     </div>
   );

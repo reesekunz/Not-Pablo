@@ -2,6 +2,7 @@ import React from "react";
 import ".././Article.scss";
 import Marky from "../../images/Marky.png";
 import Marky2 from "../../images/Marky2.jpeg";
+import { NavLink } from "react-router-dom";
 
 function Article4() {
   return (
@@ -24,7 +25,8 @@ function Article4() {
         <p>
           Recently, Marky Dubios was having so much success on his
           farmersonly.com account that there have been numerous reports of
-          people stealing his identity in a sleazy attempt to meet up with women.
+          people stealing his identity in a sleazy attempt to meet up with
+          women.
         </p>
         <p>
           PSA, ladies, if you get matched up with a Marky Dubios, it’s probably
@@ -59,6 +61,26 @@ function Article4() {
           their site, FarmersOnly might have their own unethical situation to
           worry about.
         </p>
+      </div>
+      <div className="bottom-article-links">
+        <NavLink
+          to="/pablo-scandal"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            ⬅️ Astros' Scandal Runs Deeper Than We Thought
+          </div>
+        </NavLink>
+        <NavLink
+          to="/where-are-they-now"
+          activeClassName="activeNavButton"
+          className="next-link"
+        >
+          <div className="next-link">
+            Where Are They Now? Backyard Sports Edition ➡️
+          </div>
+        </NavLink>
       </div>
     </div>
   );
