@@ -19,7 +19,9 @@ import Article10 from "./articles/Section3/Article10";
 import Article11 from "./articles/Section3/Article11";
 import Article12 from "./articles/Section3/Article12";
 import Article13 from "./articles/Section3/Article13";
+import { Helmet } from "react-helmet";
 import ReactGA from "react-ga";
+import Pablo from "./images/Pablo.jpeg";
 
 const trackingId = "UA-156067052-2"; // Google Analytics tracking ID
 ReactGA.initialize(trackingId);
@@ -28,6 +30,17 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 function App() {
   return (
     <div className="App">
+      {/* Helmet  */}
+      <Helmet>
+        <title>Not Pablo</title>
+        <meta
+          name="description"
+          content="The least reliable Backyard Sports news on the web."
+        />
+        <link rel="icon" type="image/jpeg" sizes="32x32" href={Pablo} />
+        <link rel="icon" type="image/jpeg" sizes="16x16" href={Pablo} />
+      </Helmet>
+      {/* Nav bar  */}
       <NavBar />
       {/* Main content  */}
       <div className="main-content-container">
