@@ -46,7 +46,7 @@ function Article13() {
           fill for the Giants.
         </p>
         <p>
-          Thoughts and prayers are with the Thomas' family during this difficult
+          Thoughts and prayers are with the Thomas family during this difficult
           time, although his dad didn't even really seem like he gave a shit.
         </p>
       </div>

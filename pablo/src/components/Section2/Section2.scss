@@ -1,6 +1,7 @@
 .section-2-container {
   margin-top: 80px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
+  // border: 2px solid red;
 
   .section-header-container {
     display: flex;
@@ -41,11 +42,9 @@
         text-shadow: 2px 2px black;
         @media (max-width: 1120px) {
           font-size: 27.5px;
-
         }
         @media (max-width: 800px) {
           font-size: 25px;
-
         }
       }
     }
