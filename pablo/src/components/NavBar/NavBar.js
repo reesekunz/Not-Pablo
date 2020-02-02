@@ -12,10 +12,7 @@ function NavBar() {
     <div>
       <div className="nav-bar-container">
         <div className="social-media-icons">
-          <a
-            className="icon"
-            href="https://www.facebook.com/PabloSecretWeaponSanchez/"
-          >
+          <a className="icon" href="https://www.facebook.com/NotPabloSanchez/">
             <IoLogoFacebook size={30} color="white" />
           </a>
           <a

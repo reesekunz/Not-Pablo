@@ -36,8 +36,7 @@ function Section2() {
             >
               <img className="secondary-image" src={Annie} alt="Annie" />
               <div className="article-link">
-                Annie Frazier suspended 8 games for violating substance abuse
-                policy
+                Annie Frazier violated substance abuse policy, suspended 8 games
               </div>
             </NavLink>
           </div>
