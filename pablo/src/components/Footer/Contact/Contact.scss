@@ -2,6 +2,54 @@
   padding-top: 50px;
   height: 80vh;
   .other-pages-linkz {
-    padding-top: 20px;
+    padding-top: 80px;
+  }
+}
+
+// Contact Form
+.email-form-container {
+  font-family: "Oswald", sans-serif;
+  .contact-me-header {
+    font-size: 1.75rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    // margin-bottom: 5%;
+    @media (max-width: 500px) {
+      font-size: 1.5rem;
+      // margin-top: 5%;
+    }
+  }
+
+  textarea {
+    margin-top: 2.5%;
+    border: 1px solid brown;
+    width: 60%;
+    height: 200px;
+    // @media (max-width: 1200px) {
+    //   width: 400px;
+    // }
+    // @media (max-width: 1000px) {
+    //   width: 350px;
+    // }
+    // @media (max-width: 800px) {
+    //   width: 300px;
+    // }
+    // @media (max-width: 700px) {
+    //   width: 250px;
+    // }
+    // @media (max-width: 500px) {
+    //   width: 150px;
+    //   height: 125px;
+    // }
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    .btn-submit {
+      width: 70px;
+      height: auto;
+      margin-top: 2.5%;
+    }
   }
 }

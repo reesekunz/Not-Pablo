@@ -21,3 +21,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# ContactForm
+
+# .ContactForm.js
+# /ContactForm.js
+ContactForm.js
+
+# Index html 
+index.html
+/index.html
+.index.html
