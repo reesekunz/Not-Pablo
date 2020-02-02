@@ -6,18 +6,18 @@ import Section3 from "../Section3/Section3";
 
 import MobileHome from "./MobileHome";
 
-import StickyNav from "../NavBar/StickyNav";
+// import StickyNav from "../NavBar/StickyNav";
 
 function Home() {
   return (
     <div>
-      <div className="home">
+      <div className="home-container">
         <Section1 />
         <Section3 />
         <Section2 />
       </div>
       <div className="mobile-home">
-        <StickyNav />
+        {/* <StickyNav /> */}
         <MobileHome />
       </div>
     </div>
