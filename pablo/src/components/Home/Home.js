@@ -6,7 +6,7 @@ import Section3 from "../Section3/Section3";
 
 import MobileHome from "./MobileHome";
 
-// import StickyNav from "../NavBar/StickyNav";
+import StickyNav from "../NavBar/StickyNav";
 
 function Home() {
   return (
@@ -17,7 +17,7 @@ function Home() {
         <Section2 />
       </div>
       <div className="mobile-home">
-        {/* <StickyNav /> */}
+        <StickyNav />
         <MobileHome />
       </div>
     </div>
